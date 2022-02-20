@@ -1,0 +1,18 @@
+{
+  "name": "mailwind-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Huynh Duc Dung",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dist/{*.css,*.js}",
+    "dev": "mailwind --input-html src/email.html --output-html dist/email-inlined.html --output-css dist/email.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "mailwind": "^2.0.3",
+    "postcss": "^8.4.6",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^3.0.23"
+  }
+}
