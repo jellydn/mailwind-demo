@@ -9,7 +9,7 @@
     "dev": "mailwind --input-html src/email.html --output-html dist/email-inlined.html --output-css dist/email.css"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
+    "autoprefixer": "10.4.4",
     "mailwind": "^2.0.3",
     "postcss": "^8.4.6",
     "rimraf": "^3.0.2",
