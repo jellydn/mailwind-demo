@@ -13,6 +13,6 @@
     "mailwind": "^2.0.3",
     "postcss": "8.4.14",
     "rimraf": "^3.0.2",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "3.1.6"
   }
 }
