@@ -5,14 +5,24 @@
   "author": "Huynh Duc Dung",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf dist/{*.css,*.js}",
-    "dev": "mailwind --input-html src/email.html --output-html dist/email-inlined.html --output-css dist/email.css"
+    "clean": "rm -rf dist/{*.css,*.js,*.html}",
+    "dev": "npx tsx src/cli.ts --input-html src/email.html --output-html dist/email.html --output-css dist/email.css --tailwind-config tailwind.config.js",
+    "dev:inline": "npx tsx src/cli.ts --input-html src/email.html --output-html dist/email-inlined.html --tailwind-config tailwind.config.js",
+    "mailwind": "mailwind --input-html src/email.html --output-html dist/email.html --output-css dist/email.css --tailwind-config tailwind.config.js",
+    "mailwind:inline": "mailwind --input-html src/email.html --output-html dist/email-inlined.html --tailwind-config tailwind.config.js"
   },
   "devDependencies": {
+    "@types/yargs": "17.0.10",
     "autoprefixer": "10.4.7",
     "mailwind": "2.0.3",
     "postcss": "8.4.14",
     "rimraf": "3.0.2",
-    "tailwindcss": "3.1.6"
+    "tailwindcss": "3.1.6",
+    "tsx": "3.8.0",
+    "yargs": "17.5.1"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "0.5.4",
+    "daisyui": "2.19.1"
   }
 }

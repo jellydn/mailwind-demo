@@ -9,6 +9,12 @@
 [![Mailwind - Tailwind CSS to design HTML emails
 ](https://img.youtube.com/vi/4U4waKKXQAk/0.jpg)](https://www.youtube.com/watch?v=4U4waKKXQAk)
 
+## Features
+
+- [tailwindcss](https://tailwindcss.com/) A utility-first CSS framework for rapid UI development.
+
+- [mailwind](https://github.com/soheilpro/mailwind) Use Tailwind CSS to design HTML emails.
+
 ## Install
 
 ```sh
@@ -19,6 +25,9 @@ yarn install
 
 ```sh
 yarn dev
+yarn dev:inline
+yarn mailwind
+yarn mailwind:inline
 ```
 
 ## Author
