@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@esbuild-kit/cjs-loader@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@esbuild-kit/cjs-loader/-/cjs-loader-2.3.1.tgz#462981d49d9af0dba1c9d8f0f1b73ba0b57f187d"
-  integrity sha512-ov6ALYD9xZSPoo5mmGOQtEC/b0xXeUlPy65p8aHMHLF4DfBEe8Y+iquH2lTDsy6Iskc1uMTadF+SVADTSTNJMA==
+"@esbuild-kit/cjs-loader@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@esbuild-kit/cjs-loader/-/cjs-loader-2.3.3.tgz#d65a8cc099d88ac58a571403428d82d1a791aefa"
+  integrity sha512-Rt4O1mXlPEDVxvjsHLgbtHVdUXYK9C1/6ThpQnt7FaXIjUOsI6qhHYMgALhNnlIMZffag44lXd6Dqgx3xALbpQ==
   dependencies:
     "@esbuild-kit/core-utils" "^2.1.0"
     get-tsconfig "^4.1.0"
@@ -39,10 +39,10 @@
     esbuild "~0.14.47"
     source-map-support "^0.5.21"
 
-"@esbuild-kit/esm-loader@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@esbuild-kit/esm-loader/-/esm-loader-2.4.1.tgz#5319a95fb46f89ce9d8bdf657c7ac67ebe61b1f9"
-  integrity sha512-6x44rygVfNODm27v0RW3wX5y61mqSrXDvB39G0nomgWWqxG3mjiKtPSwrFppdkrA39QIqDgVlD4gJmPOxnleSw==
+"@esbuild-kit/esm-loader@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@esbuild-kit/esm-loader/-/esm-loader-2.4.2.tgz#b358112c6592f422cc43c0439396537481518412"
+  integrity sha512-N9dPKAj8WOx6djVnStgILWXip4fjDcBk9L7azO0/uQDpu8Ee0eaL78mkN4Acid9BzvNAKWwdYXFJZnsVahNEew==
   dependencies:
     "@esbuild-kit/core-utils" "^2.1.0"
     get-tsconfig "^4.1.0"
@@ -1309,14 +1309,14 @@ tslib@^2.2.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
-tsx@3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-3.8.0.tgz#40528c8e5d44fa98877db9dfd463b46fb1c00a23"
-  integrity sha512-PcvTwRXTm6hDWfPihA4n5WW/9SmgFNxKaDKqvLLG+FKNEPA4crsipChzC7PVozPtdOaMfR5QctDlkC/hKoIsxw==
+tsx@3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-3.9.0.tgz#315738e2fa19dc5f2efd05517ed8fd3a52461acb"
+  integrity sha512-ofxsE+qjqCYYq4UBt5khglvb+ESgxef1YpuNcdQI92kvcAT2tZVrnSK3g4bRXTUhLmKHcC5q8vIZA47os/stng==
   dependencies:
-    "@esbuild-kit/cjs-loader" "^2.3.1"
+    "@esbuild-kit/cjs-loader" "^2.3.3"
     "@esbuild-kit/core-utils" "^2.1.0"
-    "@esbuild-kit/esm-loader" "^2.4.1"
+    "@esbuild-kit/esm-loader" "^2.4.2"
   optionalDependencies:
     fsevents "~2.3.2"
 
