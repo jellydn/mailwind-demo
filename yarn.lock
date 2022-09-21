@@ -384,15 +384,15 @@ cssesc@^3.0.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-daisyui@2.19.1:
-  version "2.19.1"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-2.19.1.tgz#0055f3727a7e5f29b279605f47d7c3de46114281"
-  integrity sha512-qExtDCp7N3F0Nlt7oVVehP1QMulbav8dXmEo66wavVxLVIf5tM4cV0F2Oi0OO0drzaez9v1LjBzk/vHMESs/lw==
+daisyui@2.29.0:
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-2.29.0.tgz#40fdb2ef893f758559d0187b5d3fedd297ab36cd"
+  integrity sha512-7OgVOkK28JhGJPyHT3vvbI8jDHDB6Ofs/kiBbtzyV6I1R1tWXYPzBjxMX5avmdGWteTFraQdEs5B7T1hljtROg==
   dependencies:
     color "^4.2"
     css-selector-tokenizer "^0.8.0"
     postcss-js "^4.0.0"
-    tailwindcss "^3.0"
+    tailwindcss "^3"
 
 defined@^1.0.0:
   version "1.0.0"
@@ -1279,7 +1279,7 @@ tailwindcss@3.0.18:
     quick-lru "^5.1.1"
     resolve "^1.21.0"
 
-tailwindcss@3.1.8:
+tailwindcss@3.1.8, tailwindcss@^3:
   version "3.1.8"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.1.8.tgz#4f8520550d67a835d32f2f4021580f9fddb7b741"
   integrity sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==
@@ -1294,34 +1294,6 @@ tailwindcss@3.1.8:
     glob-parent "^6.0.2"
     is-glob "^4.0.3"
     lilconfig "^2.0.6"
-    normalize-path "^3.0.0"
-    object-hash "^3.0.0"
-    picocolors "^1.0.0"
-    postcss "^8.4.14"
-    postcss-import "^14.1.0"
-    postcss-js "^4.0.0"
-    postcss-load-config "^3.1.4"
-    postcss-nested "5.0.6"
-    postcss-selector-parser "^6.0.10"
-    postcss-value-parser "^4.2.0"
-    quick-lru "^5.1.1"
-    resolve "^1.22.1"
-
-tailwindcss@^3.0:
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.1.6.tgz#bcb719357776c39e6376a8d84e9834b2b19a49f1"
-  integrity sha512-7skAOY56erZAFQssT1xkpk+kWt2NrO45kORlxFPXUt3CiGsVPhH1smuH5XoDH6sGPXLyBv+zgCKA2HWBsgCytg==
-  dependencies:
-    arg "^5.0.2"
-    chokidar "^3.5.3"
-    color-name "^1.1.4"
-    detective "^5.2.1"
-    didyoumean "^1.2.2"
-    dlv "^1.1.3"
-    fast-glob "^3.2.11"
-    glob-parent "^6.0.2"
-    is-glob "^4.0.3"
-    lilconfig "^2.0.5"
     normalize-path "^3.0.0"
     object-hash "^3.0.0"
     picocolors "^1.0.0"
