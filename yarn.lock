@@ -383,10 +383,10 @@ cssesc@^3.0.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-daisyui@2.30.0:
-  version "2.30.0"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-2.30.0.tgz#6739d1d233a4dba85799b7c093f48eef0a40f4af"
-  integrity sha512-BFwcsRIAFiW4egRIKFpu8Q8csJjXkz60THvL0HdHsEriIPtjc6uWJqVBAQoK8qpFxOTVVv4sWfJ9yD50K6Hz3Q==
+daisyui@2.33.0:
+  version "2.33.0"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-2.33.0.tgz#5a5bbcd8f083cd50a39938df4fc9abc6dfbf14c6"
+  integrity sha512-NviwGs9oC9NW7IEZiLexHtxkpzP38AKxb9GTUCqUa0qoU8NHKQGqJUzQWZwWSZakU57KsQLblFVe0xMhqw4TlA==
   dependencies:
     color "^4.2"
     css-selector-tokenizer "^0.8.0"
