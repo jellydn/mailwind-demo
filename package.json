@@ -17,7 +17,7 @@
     "mailwind": "2.0.3",
     "postcss": "8.4.18",
     "rimraf": "3.0.2",
-    "tailwindcss": "3.2.1",
+    "tailwindcss": "3.2.2",
     "tsx": "3.11.0",
     "yargs": "17.6.2"
   },
