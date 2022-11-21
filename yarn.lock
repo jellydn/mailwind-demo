@@ -732,13 +732,12 @@ lodash.merge@^4.6.2:
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
-mailwind@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/mailwind/-/mailwind-2.1.0.tgz#c41673fea1bf1cb4bc3cf6f256801c00798101ec"
-  integrity sha512-lDSLXKpcmfHmplBchQC7rKdw97a0fCIpRuOVsEuJDV8VivIT4s2Xguy4ORE3sj9xOurL+j0ZXzjK16KDebRYmg==
+mailwind@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/mailwind/-/mailwind-2.2.0.tgz#cca42b6c624e9b6b555b45c29b90605659c447c0"
+  integrity sha512-DueTDipAb2TVsbDixDZD57E2wE55Uk3i+VsDGF8G46MPeEu5cz2ALdsdgec5PhE2W0Fq0TFl1ihpZuuItdR+bA==
   dependencies:
     juice "8.1.0"
-    tailwindcss "3.2.2"
     yargs "17.6.2"
 
 mensch@^0.3.4:
@@ -1027,35 +1026,6 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
-
-tailwindcss@3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.2.2.tgz#705f78cec8f4de2feb52abdb7a8a056e67f2d736"
-  integrity sha512-c2GtSdqg+harR4QeoTmex0Ngfg8IIHNeLQH5yr2B9uZbZR1Xt1rYbjWOWTcj3YLTZhrmZnPowoQDbSRFyZHQ5Q==
-  dependencies:
-    arg "^5.0.2"
-    chokidar "^3.5.3"
-    color-name "^1.1.4"
-    detective "^5.2.1"
-    didyoumean "^1.2.2"
-    dlv "^1.1.3"
-    fast-glob "^3.2.12"
-    glob-parent "^6.0.2"
-    is-glob "^4.0.3"
-    lilconfig "^2.0.6"
-    micromatch "^4.0.5"
-    normalize-path "^3.0.0"
-    object-hash "^3.0.0"
-    picocolors "^1.0.0"
-    postcss "^8.4.18"
-    postcss-import "^14.1.0"
-    postcss-js "^4.0.0"
-    postcss-load-config "^3.1.4"
-    postcss-nested "6.0.0"
-    postcss-selector-parser "^6.0.10"
-    postcss-value-parser "^4.2.0"
-    quick-lru "^5.1.1"
-    resolve "^1.22.1"
 
 tailwindcss@3.2.4, tailwindcss@^3:
   version "3.2.4"
