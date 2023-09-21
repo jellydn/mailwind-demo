@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@types/yargs": "17.0.24",
-    "autoprefixer": "10.4.15",
+    "autoprefixer": "10.4.16",
     "mailwind": "2.2.0",
     "postcss": "8.4.30",
     "rimraf": "5.0.1",
