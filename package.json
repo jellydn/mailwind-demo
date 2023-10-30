@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "0.5.10",
-    "daisyui": "2.52.0"
+    "daisyui": "3.9.4"
   }
 }
