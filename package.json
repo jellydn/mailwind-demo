@@ -22,7 +22,7 @@
     "yargs": "17.7.2"
   },
   "dependencies": {
-    "@tailwindcss/typography": "0.5.12",
+    "@tailwindcss/typography": "0.5.13",
     "daisyui": "4.10.2"
   }
 }
