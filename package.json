@@ -16,7 +16,7 @@
     "autoprefixer": "10.4.21",
     "mailwind": "2.2.0",
     "postcss": "8.5.5",
-    "rimraf": "5.0.10",
+    "rimraf": "6.0.1",
     "tailwindcss": "3.4.17",
     "tsx": "4.20.3",
     "yargs": "17.7.2"
