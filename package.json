@@ -12,7 +12,7 @@
     "mailwind:inline": "mailwind --input-html src/email.html --output-html dist/email-inlined.html --tailwind-config tailwind.config.js"
   },
   "devDependencies": {
-    "@types/yargs": "17.0.33",
+    "@types/yargs": "17.0.34",
     "autoprefixer": "10.4.21",
     "mailwind": "2.2.0",
     "postcss": "8.5.6",
