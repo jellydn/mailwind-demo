@@ -15,7 +15,7 @@
     "@types/yargs": "17.0.35",
     "autoprefixer": "10.4.27",
     "mailwind": "2.2.0",
-    "postcss": "8.5.6",
+    "postcss": "8.5.8",
     "rimraf": "5.0.10",
     "tailwindcss": "3.4.19",
     "tsx": "4.21.0",
