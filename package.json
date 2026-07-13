@@ -15,10 +15,10 @@
     "@types/yargs": "17.0.35",
     "autoprefixer": "10.5.2",
     "mailwind": "2.2.0",
-    "postcss": "8.5.18",
+    "postcss": "8.5.19",
     "rimraf": "5.0.10",
     "tailwindcss": "3.4.19",
-    "tsx": "4.23.0",
+    "tsx": "4.23.1",
     "yargs": "17.7.3"
   },
   "dependencies": {
